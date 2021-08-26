@@ -139,7 +139,7 @@ document.addEventListener('keydown', event => {
         if (event.shiftKey && !event.ctrlKey && !event.metaKey) {
 
             // Gets the orderbookid from gamla chart sidan, this is needed to set the alert
-            orderbookid = document.getElementsByClassName("opt-out-link ng-tns-c251-6")[0].href.split("/")[5]
+            orderbookid = document.getElementsByClassName("opt-out-link ng-tns-c252-6")[0].href.split("/")[5]
             // The price from the chart popup box
             var price = document.getElementsByClassName("ohlc-list")[0].children[1].children[1].innerHTML.replace(",", ".");
             var oneYearFromNow = new Date();
